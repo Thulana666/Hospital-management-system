@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding-top: 92px;
+    font-family: Roboto, Arial;
+    font-size: 16px;
+    background-color: #f9f7f7;
+}
+
+.payment-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 14px;
+}
+
+.payment-header {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.payment-header hr {
+    width: 50%;
+    border: 2px solid black;
+}
+
+.payment-body {
+    margin-top: 12px;
+    background-color: #dbe2ef;
+    width: 58%;
+    border-radius: 4px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.15);
+    padding: 20px 30px 20px;
+}
+
+.payment-body .payment-date {
+    display: flex;
+    justify-content: end;
+}
+
+.payment-date input {
+    margin-left: 16px;
+    height: 20px;
+    width: 22%;
+}
+
+.payment-body hr {
+    margin-bottom: 30px;
+}
+
+.payment-body div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 8px;
+}
+
+.payment-body div input {
+    padding: 10px;
+    border: 1px solid #dbe2ef;
+    border-radius: 4px;
+    font-size: 14px;
+    color: grey;
+}
+
+.payment-submit {
+    width: 130px;
+    height: 44px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #3f72af;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: background-color 0.15s;
+}
+
+.payment-submit:hover {
+    background-color: #112d4e;
+}
+
+.my-payment {
+    margin-top: 60px;
+}
+
+.payment-body .my-list {
+    margin: 20px auto 14px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.my-list .list-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    font-weight: bold;
+    padding: 0 20px 0;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.my-list .list-row {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    padding: 0 20px 0;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.remove-payment {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 50px;
+    color: grey;
+    font-size: 30px;
+    transition: background-color 0.15s;
+}
+
+.remove-payment:hover {
+    background-color: #3f72af;
+    color: black;
+}

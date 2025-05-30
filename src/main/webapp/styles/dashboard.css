@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+	opacity: 0;
+    transition: opacity 1.15s ease-in;
+    margin: 0;
+    padding-top: 92px;
+   	font-family: Roboto, Arial;
+   	font-size: 16px;
+   	background-color: #f9f7f7;
+    background-image: url("../assets/background.png");
+   	background-size: cover;
+   	background-repeat: no-repeat;
+   	background-position: top center;
+}
+
+body.loaded {
+    opacity: 1;
+}
+
+.new-navbar {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.container {
+    width: 30%;
+    margin: 55px 0 218px 45px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.text1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #112d4e;
+}
+
+.text2 {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: rgb(152, 152, 152);
+}
+
+.home-login-btn {
+    padding: 18px 70px 18px;
+    margin: 18px 0 0 70px;
+    border-radius: 60px;
+    border: none;
+    background-color: #3f72af;
+    color: white;
+    font-weight: bold;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: background-color 0.5s;
+  }
+  
+.home-login-btn:hover {
+    background-color: #112d4e;
+}

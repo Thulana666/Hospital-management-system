@@ -1,0 +1,201 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blanchedalmond;
+}
+
+body{
+    background-image: url("../asserts/admin2.avif");
+    background-repeat: repeat-y;
+    background-size: 1550px 1080px;
+}
+
+.container{
+    /* display: flex; */
+    justify-content: left;
+    justify-content: left;
+    align-items: left;
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.2);
+    width: 1200px;
+    height: 1400px;
+    margin-left: 250px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border:2px solid black;
+}
+
+
+#menu{
+    background-color:#383737;
+    height:1200px;
+    width:200px;
+    float:left;
+    padding:5px;
+    border-radius: 20px;
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #383737;
+}
+  
+li a {
+    display: block;
+    color: #c6c6c6;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+ 
+li a:hover {
+    background-color: #a29a9a;
+    color: rgb(255, 255, 255);
+}
+
+#menu{
+    background-color:#383737;
+    height:1200px;
+    width:200px;
+    float:left;
+    padding:5px;
+    border-radius: 20px;
+} 
+
+.logout{
+    padding-top: 2px;
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: bisque;
+}
+
+button{
+    padding-top: 6px;
+    border-radius: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    background-color: rgb(138, 116, 116);
+}
+
+button:hover{
+    background-color: #a29a9a;
+    color: rgba(178, 1, 1, 0.636);
+}
+
+.font1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    margin-left: 25px;
+}
+
+.Name{
+    color: blanchedalmond;
+}
+
+.innerImg{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+h2{
+    margin-left: 50%;
+    color:blanchedalmond
+}
+
+
+
+label{
+    font-family: sans-serif;
+    color: blanchedalmond;
+    margin-left: 25px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+.bigInput{
+    width: 500px;
+    height: 30px;
+    margin-left: 25px;
+}
+
+.innerh3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:blanchedalmond;
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.2);
+    width: 1000px;
+    height: 1000px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border:2px solid black;
+}
+
+table{
+    margin-left: 5%;
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+}
+
+td,th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+table,th,td{
+    border: 1px solid blanchedalmond;
+    width: 900px;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+}
+
+td{
+    color: aliceblue;
+}
+
+.submit2 {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit2 {
+    background-color: rgb(144, 211, 160);
+    color: black;
+    border: 2px solid #04AA6D;
+}
+
+.submit2:hover {
+    background-color: #04AA6D;
+    color: rgb(235, 207, 207);
+}

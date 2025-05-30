@@ -1,0 +1,25 @@
+# Eclipse files
+.classpath
+.project
+.settings/
+bin/
+*.class
+
+# SQL Server/DB files (if any local DB files exist)
+*.db
+*.sqlite
+
+# Node.js (if used)
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files (if using IntelliJ/VSCode)
+.idea/
+.vscode/
